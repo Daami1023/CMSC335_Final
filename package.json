@@ -1,0 +1,19 @@
+{
+  "name": "cmsc335_final",
+  "version": "1.0.0",
+  "description": "Team Members: Imaad Nasir (inasir) , Michael Ge , Jayden Turgott",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daami1023/CMSC335_Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daami1023/CMSC335_Final/issues"
+  },
+  "homepage": "https://github.com/Daami1023/CMSC335_Final#readme"
+}
