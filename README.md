@@ -4,7 +4,8 @@ Team Members: Imaad Nasir (inasir) , Michael Ge , Jayden Turgott
 
 App Desc.: 
 
-API Links: 
+API Links: https://www.qrtag.net/api/
+
 
 Video: 
 
