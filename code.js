@@ -1,13 +1,13 @@
 const http = require('http');
 const httpSuccessStatus = 200;
 const fs = require("fs");
-let data = "";
 const express = require('express');
 const app = express();
 const path = require("path");
 require("dotenv").config({ path: path.resolve(__dirname, '.env') }) 
 
 const uri = process.env.MONGO_CONNECTION_STRING;
+const databaseAndCollection = {db: "Final_Proj", collection:"QR"};
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
     const bodyParser = require("body-parser");
@@ -50,5 +50,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
     app.get("/", (request, response) => { 
     response.render("form");
     });
+
+
 
     app.listen(port);
