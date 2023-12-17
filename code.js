@@ -6,7 +6,6 @@ const app = express();
 const path = require("path");
 const fetch = require("node-fetch");
 require("dotenv").config({ path: path.resolve(__dirname, '.env') }) 
-
 const uri = process.env.MONGO_CONNECTION_STRING;
 const databaseAndCollection = {db: "Final_Proj", collection:"QR"};
 const { MongoClient, ServerApiVersion } = require('mongodb');
@@ -54,7 +53,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
     app.post("/result", async (request, response) => {
 
-      html = "";
+      html = "<style> body {background-color: pink} </style>";
       html+=`Here's Your qr for ${request.body.url} <br>`
       QR=`<img src="https://qrtag.net/api/qr_4.png?url=https://${request.body.url}" alt="qrtag"><br>`
       html+=QR;
