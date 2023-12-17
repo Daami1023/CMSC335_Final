@@ -7,5 +7,6 @@ App Desc.: This app takes in a name, email address, and a url, and turns the url
 API Links: https://www.qrtag.net/api/
 
 
-Video: 
+Video: https://www.youtube.com/watch?v=XiXoXYu6eX4
+
 
